@@ -1,0 +1,27 @@
+.widget{
+    position:sticky;
+    top:0px;
+    flex: 0.2;
+    border-top-left-radius: 10px;
+    border: 0.2px solid rgb(228, 226, 226);
+    border-bottom: 0;
+    border-top-right-radius:10px ;
+    padding-bottom: 10px;
+    background: rgb(255, 255, 255);
+    height: min(auto);
+}
+.widget_header{
+    font-size: 30px;
+    overflow: hidden;
+    z-index: 2;
+    
+
+}
+.widget-body{
+    display: flex;
+    justify-content: center;
+
+}
+h2{
+    text-align: center;
+}
